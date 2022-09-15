@@ -10,7 +10,7 @@ instructions:
 
 3. Goto your klipperscreen/styles/images folder (the one you use i.e in my case z-bolt) on your Pi , then copy the contents of 	the images folder.
 4. Copy the contents of the Klipperscreen.conf and add it to th top portion of your current klipperscreen.conf file NOTE: If you are using more than 9 tools , you will need to uncomment out the sections noted. This setup is for 12 cart. If you need more you can create them.
-5. I have included ERCFextruder.svg files for up to 15 tool heads.
+5. I have included ERCFextruder.svg files for up to 18 tool heads.
 
 Restart Klipper , You should then be able to access the ERCF menu by clicking on Actions. When the print is paused you can access the ERCF menu by clicking on the settintgs menu. This is a built in fool safe. Once you have fixed your ERCF problem just hit resume and your print will continue.
 
