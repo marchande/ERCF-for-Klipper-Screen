@@ -12,7 +12,7 @@ params: {"script":"ERCF_HOME"}
 name: {{ gettext('Disable Motors') }}
 icon: motor-off
 method: printer.gcode.script
-params: {"script":"_ERCF_MOTORS_OFF"}
+params: {"script":"ERCF_MOTORS_OFF"}
 
 [menu __main actions Ercf UNLOCK]
 name: {{ gettext('ERCF Unlock') }}
@@ -243,7 +243,7 @@ params: {"script":"ERCF_HOME"}
 name: {{ gettext('Disable Motors') }}
 icon: motor-off
 method: printer.gcode.script
-params: {"script":"_ERCF_MOTORS_OFF"}
+params: {"script":"ERCF_MOTORS_OFF"}
 
 [menu __print Ercf UNLOCK]
 name: {{ gettext('ERCF Unlock') }}
