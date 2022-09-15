@@ -4,11 +4,14 @@ This is not entirly my work, as KDE-47 In the ERCF_Questions channel on the voro
 
 instructions:
 
-copy the contents of the images folder to /KlipperScreen/styles/""name of klipper screen theam you are using""/images/
-or if you dont know what theme you are using... go in to each folder and put the icons in to the image directory of each folder. 
-so no mater what theam you choose the icons will be avalable. 
-copy the contents from the KlipperScreen.conf and add to the top portion of your KlipperScreen.conf file
-if you are using more than 9 tools, you will need to uncomment out the sections noted, ive set it up for 12, if you are using more than that, you can create
-more using the same format, I have included ercfextruder.svg files for up to 15 tool heads more than that and you ron your own.
+1. Unpack the ERCF_Klipper_Screen.rar 
 
-restart klipper. and enjoy. 
+2. You will need to use a program like winscp or have someway of FTP into your klipper files on your Pi.
+
+3. Goto your klipperscreen/styles/images folder (the one you use i.e in my case z-bolt) on your Pi , then copy the contents of 	the images folder.
+4. Copy the contents of the Klipperscreen.conf and add it to th top portion of your current klipperscreen.conf file NOTE: If you are using more than 9 tools , you will need to uncomment out the sections noted. This setup is for 12 cart. If you need more you can create them.
+5. I have included ERCFextruder.svg files for up to 15 tool heads.
+
+Restart Klipper , You should then be able to access the ERCF menu by clicking on Actions. When the print is paused you can access the ERCF menu by clicking on the settintgs menu. This is a built in fool safe. Once you have fixed your ERCF problem just hit resume and your print will continue.
+
+ENJOY
